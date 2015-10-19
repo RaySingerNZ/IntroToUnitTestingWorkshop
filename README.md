@@ -11,6 +11,10 @@ Get you started with unit testing, and show how you can use unit testing to your
 The files are designed to show how testing can be implemented against the VP1 project's
 datalayer, to check for a sound SQL connection and that the data returned is correct.
 
+Rather than making a standard database with orders or movies like we do in class, I decided to make it based around a gang.
+It contains gang members and their corresponding weapons. I was planning to go further in implementing this and make a more detailed system,
+which I may still do at some stage. For now it seems more important to get this workshop done to provide students with a start into unit testing.
+
 ## How to Use This Project
 If you have a GitHub account you can fork this repository, else you can download the ZIP file.
 
