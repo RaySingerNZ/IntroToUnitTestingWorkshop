@@ -19,9 +19,10 @@ which I may still do at some stage. For now it seems more important to get this 
 If you have a GitHub account you can fork this repository, else you can download the ZIP file.
 
 1. **Once you have a copy of this project, first restore the database.**
-  1. Open SQL Management Studio, expand the *Database Engine*, select the server inside, right click and connect to it.
-  2. Right click on the *Databases* folder in the Object Explorer and select the *Restore Database* option.
-  3. In the dialog box select the *Device* under *Source*, click the ellipsis, ensure *Backup Media Type* is selected as *File* and click on the *Add* button.
+  1. The database is a .bak file. If this file doesn't up, ensure your global git ignore doesn't include *.bak files.
+  2. Open SQL Management Studio, expand the *Database Engine*, select the server inside, right click and connect to it.
+  3. Right click on the *Databases* folder in the Object Explorer and select the *Restore Database* option.
+  4. In the dialog box select the *Device* under *Source*, click the ellipsis, ensure *Backup Media Type* is selected as *File* and click on the *Add* button.
   4. Navigate to the *BadassGangDB.bak* file location and click OK to restore the database.
 2. **Now you can load up the solution in Visual Studio.**
   1. With the solution open, reveal the *Server Explorer* panel in VS (Visual Studio). Right click on Data Connections, hit *Refresh*. Right click again and select *Add Connection*.
